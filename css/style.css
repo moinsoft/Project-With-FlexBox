@@ -290,3 +290,43 @@ Services Section
   margin: 20px 0;
   text-align: justify;
 }
+
+
+
+/*====================
+Gallery Section
+======================*/
+
+.gallery {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.single-gallery {
+  flex-basis: 23%;
+  margin-bottom: 30px;
+  border: 1px solid var(--borderColor);
+  padding: 3px;
+  border-radius: 8px;
+}
+
+.single-gallery:nth-child(n+9) {
+  margin-bottom: 0;
+}
+
+.gallery-img {
+  height: 200px;
+  border-radius: 5px;
+  overflow: hidden;
+  transition: all 0.3s linear;
+}
+
+.gallery-img img {
+  height: 100%;
+  transition: all 0.3s linear;
+}
+
+.gallery-img img:hover {
+  transform: scale(1.1);
+}
