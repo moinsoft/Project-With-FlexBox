@@ -103,6 +103,20 @@ Common Section Title
 }
 
 /*====================
+Common Button CSS
+======================*/
+
+.btn {
+  display: inline-block;
+  background-color: var(--primaryColor);
+  color: var(--secondaryColor);
+  text-transform: capitalize;
+  padding: 10px 20px;
+  border-radius: 8px;
+}
+
+
+/*====================
 Header Section
 ======================*/
 .header-area {
@@ -210,4 +224,69 @@ About Section
   text-transform: capitalize;
   margin: 10px 0;
   font-size: var(--fontSecondary);
+}
+
+
+/*====================
+Services Section
+======================*/
+
+.services-area {
+  background-color: var(--bgColorPrimary);
+}
+
+.service {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+
+.single-service {
+  flex: 0 0 32%;
+  padding: 20px;
+  border-radius: 5px;
+  margin-bottom: 30px;
+  background-color: var(--secondaryColor);
+  text-align: center;
+}
+
+
+.single-service:hover {
+  box-shadow: 0 0 13px 0px var(--boxShadow);
+}
+
+
+
+.single-service:nth-child(n+4) {
+  margin-bottom: 0;
+}
+
+.single-service h4 {
+  margin-bottom: 20px;
+  font-size: var(--fontSecondary);
+  font-weight: normal;
+  text-transform: uppercase;
+}
+
+.service-img {
+  width: 100%;
+  height: 200px;
+  border-radius: 5px;
+  overflow: hidden;
+}
+
+.service-img img {
+  width: 100%;
+  height: 100%;
+  transition: all 0.3s linear;
+}
+
+.single-service:hover .service-img img {
+  transform: scale(1.1);
+}
+
+.single-service p {
+  margin: 20px 0;
+  text-align: justify;
 }
