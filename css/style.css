@@ -123,3 +123,14 @@ Header Section
   color: var(--primaryColor);
 }
 
+
+/*====================
+Banner Section
+======================*/
+
+.banner-area img {
+  border: 3px solid var(--borderColor);
+  padding: 3px;
+  border-radius: 3px;
+}
+
