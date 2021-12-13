@@ -22,19 +22,7 @@
 
 /* small devices (landscape phones, less than 768px) */
 @media (max-width: 48em) {
-
   
-
-  
-  
-
-}
-
-
-
-/* Extra-small devices (portrait phones, less than 576px) */
-@media (max-width: 36em) {
-
   .pt-100 {
     padding-top: 50px;
   }
@@ -44,7 +32,7 @@
   }
 
   .container {
-    padding: 10px;
+    padding: 30px;
   }
 
   .header {
@@ -56,21 +44,8 @@
   }
 
   .header__nav ul li a {
-    margin-left: 10px;
-    font-weight: 400;
-    font-size: 12px;
-  }
-
-  .banner-area img {
-    padding: 1px;
-  }
-
-  .section-title h4 {
-    font-size: 18px;
-  }
-
-  .section-title p {
-    font-size: 14px;
+    margin-left: 25px;
+    font-size: 20px;
   }
 
   .about {
@@ -80,15 +55,7 @@
 
   .single-about {
     margin-bottom: 20px;
-    width: 350px;
-  }
-
-  .single-about h4 {
-    font-size: 18px;
-  }
-
-  .single-about p {
-    font-size: 14px;
+    width: 400px;
   }
 
   .service {
@@ -97,15 +64,7 @@
   }
 
   .single-service {
-    width: 350px;
-  }
-
-  .single-service h4 {
-    font-size: 20px;
-  }
-
-  .single-service p {
-    font-size: 14px;
+    width: 400px;
   }
 
   .single-service:nth-child(n+4) {
@@ -118,7 +77,7 @@
   }
 
   .single-gallery {
-    width: 350px;
+    width: 400px;
   }
 
   .gallery-img img {
@@ -140,6 +99,63 @@
 
   .contact-address {
     width: 100%;
+  }
+
+}
+
+
+
+/* Extra-small devices (portrait phones, less than 576px) */
+@media (max-width: 36em) {
+
+  .container {
+    padding: 10px;
+  }
+
+  .header__nav ul li a {
+    margin-left: 10px;
+    font-weight: 400;
+    font-size: 12px;
+  }
+
+  .banner-area img {
+    padding: 1px;
+  }
+
+  .section-title h4 {
+    font-size: 18px;
+  }
+
+  .section-title p {
+    font-size: 14px;
+  }
+
+  .single-about {
+    width: 300px;
+  }
+
+  .single-about h4 {
+    font-size: 18px;
+  }
+
+  .single-about p {
+    font-size: 14px;
+  }
+
+  .single-service {
+    width: 300px;
+  }
+
+  .single-service h4 {
+    font-size: 20px;
+  }
+
+  .single-service p {
+    font-size: 14px;
+  }
+
+  .single-gallery {
+    width: 300px;
   }
 
   .footer-area {
