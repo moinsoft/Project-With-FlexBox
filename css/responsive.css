@@ -2,7 +2,17 @@
 /* large devices (desktops, less than 1200px) */
 @media (max-width: 75em) {
 
-  
+  .container {
+    padding: 30px;
+  }
+
+  .contact-form {
+    width: 65%;
+  }
+
+  .contact-address {
+    width: 31%;
+  }
 
 }
 
@@ -18,10 +28,6 @@
 
   .pb-100 {
     padding-bottom: 50px;
-  }
-
-  .container {
-    padding: 30px;
   }
 
   .single-service h4 {
